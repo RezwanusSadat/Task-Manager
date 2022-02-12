@@ -24,7 +24,7 @@ window.onload = function () {
 };
 
 function createTask(parent, task) {
-	let col = createTag("div", "col-sm-3");
+	let col = createTag("div", "col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-3");
 	let singleTask = createTag("div", "single-task d-flex");
 	let singleTaskP = createTag("p", "");
 	let removeBtn = createTag("span", "remove ml-auto");
